@@ -27,19 +27,23 @@
   margin-bottom: 30px;
 }
 
-.getStartedButton {
+.createAccountButton {
+  display: inline-block;
   background-color: #ff4500;
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
   font-weight: bold;
+  cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
-.getStartedButton:hover {
+.createAccountButton:hover {
   background-color: #e03e00;
 }
+
+
 
 .features {
   background: black;

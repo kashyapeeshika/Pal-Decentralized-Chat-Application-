@@ -19,9 +19,8 @@ const Home = () => {
         <Image src={images.logo} alt="App Logo" width={100} height={100} className={Style.logo} />
         <h1>Welcome to Decentralized Chat</h1>
         <p>Your privacy, our priority. Experience seamless and secure messaging.</p>
-        <Link href="">
-          <a className={Style.getStartedButton}>Get Started</a>
-        </Link>
+        <small className={Style.createAccountButton}>Click on Create an account !!!</small>
+        
       </section>
 
       {/* Features Section */}

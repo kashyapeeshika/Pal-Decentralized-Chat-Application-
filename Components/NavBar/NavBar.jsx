@@ -10,7 +10,7 @@ const NavBar = () => {
   const menuItems = [
     {
       menu: "Home",
-      link: "/",
+      link: "home",
     },
     {
       menu: "All Users",
@@ -25,16 +25,12 @@ const NavBar = () => {
       link: "/",
     },
     {
-      menu: "Setting",
-      link: "/",
-    },
-    {
       menu: "FAQS",
       link: "faqs",
     },
     {
       menu: "Terms of use",
-      link: "/",
+      link: "tou",
     },
   ];
 

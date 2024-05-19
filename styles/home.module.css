@@ -1,0 +1,132 @@
+.home {
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero {
+  background: linear-gradient(135deg, #6e45e2, #88d3ce);
+  padding: 60px 20px;
+  color: white;
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+
+.logo {
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.getStartedButton {
+  background-color: #ff4500;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.getStartedButton:hover {
+  background-color: #e03e00;
+}
+
+.features {
+  background: black;
+  padding: 40px 20px;
+  border-radius: 15px;
+}
+
+.features h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.featuresGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.featureItem {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: var(--feature-bg-color, #fff); /* Dynamic background color */
+}
+
+.featureItem:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.featureItem h3 {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.featureItem p {
+  font-size: 1em;
+}
+
+.details {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  border-radius: 15px;
+}
+
+.details h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.detailsContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.detail {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.detail:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+.footer p {
+  margin: 0;
+}

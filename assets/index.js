@@ -29,7 +29,13 @@ import image7 from "./img7.gif";
 import image8 from "./img8.gif";
 import image9 from "./img9.gif";
 import image10 from "./img10.gif";
-
+import community from "./community.png";
+import cross from "./cross.png";
+import decen from "./decen.png";
+import secure from "./secure.png";
+import support from "./support.png";
+import userfreindly from "./userfriendly.png";
+import trust from "./trust.png";
 export default {
   logo,
   close,
@@ -62,4 +68,12 @@ export default {
   image8,
   image9,
   image10,
+  community,
+  cross,
+  decen,
+  secure,
+  support,
+  userfreindly,
+  trust,
+
 };

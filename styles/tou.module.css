@@ -1,0 +1,65 @@
+.terms {
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.terms h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  color: #6e45e2;
+}
+
+.termSection {
+  margin-bottom: 20px; /* Spacing between sections */
+  border: 1px solid #6e45e2;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.termHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: black;
+  border-color: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.termSection.active .termHeader {
+  background-color: #6e45e2;
+}
+
+.termHeader:hover {
+  background-color: #e0e0e0;
+}
+
+.termHeader h2 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #fff; /* Changed to white for better visibility */
+}
+
+.termHeader span {
+  font-size: 1.5em;
+  color: #fff; /* Changed to white for better visibility */
+}
+
+.termContent {
+  padding: 15px;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+}
+
+.termContent p {
+  margin: 0;
+  font-size: 1em;
+  color: #6e45e2;
+}
